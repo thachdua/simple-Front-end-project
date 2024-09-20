@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form 2</title>
+    <link rel="stylesheet" href="form2.css">
+</head>
+<body>
+<h1>VÍ DỤ VỀ TẠO FORM</h1>
+
+<form action="">
+    <table>
+        <tr>
+            <td>
+                <label for="tb">Text box:</label>
+            </td>
+            <td>
+                <input type="text" name="tb" id="tb">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="text-area">Text area:</label>
+            </td>
+            <td>
+                <textarea name="text-area" id="text-area" cols="21" rows="3"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="file-box">File box:</label>
+            </td>
+            <td>
+                <input type="text" name="file-box" id="file-box">
+            </td>
+            <td>
+                <input type="file" name="">
+            </td>
+        </tr>
+    </table>
+
+    <fieldset>
+        <legend>Vendor</legend>
+        <input type="radio" name="fav_vendor" id="DELL">
+        <label for="DELL">DELL</label> <br>
+
+        <input type="radio" name="fav_vendor" id="HP">
+        <label for="HP">HP</label> <br>
+
+        <input type="radio" name="fav_vendor" id="apple" checked>
+        <label for="apple">APPLE</label> <br>
+
+        <input type="checkbox" id="likenew">
+        <label for="likenew">Like-new</label> <br>
+
+        <label for="rangeInput">Cost: <strong id="rangeValue"></strong></label> <br>
+        200$<input type="range" name="rangeInput" id="rangeInput" min="200" max="2000" value="500" step="1"> 2000$ <br>
+
+        <label for="datetimeInput">Date</label>
+        <input type="datetime-local" name="datetimeInput" id="datetimeInput" value="2023-09-23T12:00">
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <br>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+
+    </fieldset>
+
+    <script src="form2.js"></script>
+</form>
+</body>
+</html>

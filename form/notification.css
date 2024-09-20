@@ -1,0 +1,35 @@
+div.wd-notify {
+    display: flex;
+}
+
+div.wd-notify > div.wd-notify-left {
+    width: 68px;
+    height: 61px;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+
+div.wd-notify > div.wd-notify-left > span.name {
+    background-color: #075794;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+div.wd-notify > div.wd-notify-left > span.number {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+div.wd-notify > div.wd-notify-left {
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

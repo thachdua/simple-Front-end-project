@@ -1,0 +1,45 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Style for the vertical navigation bar */
+.navbar {
+    background-color: #333;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    background-color: #333333;
+    height: 20%;
+    width: 100%;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: flex; /* Make the <a> tag take up the full <li> width */
+    height: 100%; /* Fill the entire <li> height */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a:hover {
+    background-color: green;
+}

@@ -1,0 +1,37 @@
+* {
+    background-color: lightgreen;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+input {
+    background-color: white;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#username {
+    width: 100px;
+}
+
+#password {
+    width: 100px;
+}

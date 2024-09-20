@@ -1,0 +1,117 @@
+
+.hidden-dropdown {
+    /*display: none;*/
+    background-color: #FFF;
+    color: #000;
+    width: 300px;
+    position: relative;
+    border: 1px solid;
+    z-index: 9999;
+}
+
+ul.menu, ul.menu-gioi-thieu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.menu > li {
+    float: left;
+    position: relative;
+}
+
+.row {
+    display: flex;
+}
+
+.row > .Main-left {
+    display: block;
+    float: left;
+}
+
+.row > .Main-center {
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.left-accordion > a {
+    display: block;
+    color: black;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: dashed 1px;
+}
+
+.Main-center > iframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+li a:hover, .left-accordion > a:hover {
+    background-color: yellowgreen;
+}
+
+header {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+main {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.collapsible-content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/*#ITF-Main > #row > #Main-left {*/
+/*    display: inline-block;*/
+/*    border: solid;*/
+/*}*/
+

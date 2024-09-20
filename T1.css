@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+span {
+    color: #ffeb3b;
+    font-weight: 600;
+    font-size: 4em;
+    text-shadow: 0 0 10px #ff8c3b,
+    0 0 40px #ff8c3b,
+    0 0 80px #ff8c3b,
+    0 0 160px #ff8c3b,
+    0 0 240px #ff8c3b;
+    text-align: center;
+}
+
+#left-img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#right-img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
